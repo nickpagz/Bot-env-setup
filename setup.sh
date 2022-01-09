@@ -5,7 +5,7 @@
 #########################################
 
 # Install latest pip
-apt-get install python3-pip
+sudo apt-get install python3-pip
 
 # Install TA-Lib
 wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
@@ -13,7 +13,7 @@ tar -xzf ta-lib-0.4.0-src.tar.gz
 cd ta-lib/
 ./configure --prefix=/usr
 make
-make install
+sudo make install
 
 # Upgrade python setuptools
 pip3 intall --upgrade setuptools
@@ -31,4 +31,4 @@ pip3 install ccxt
 pip3 install py3cw
 
 # Install tmux
-apt-get install tmux
+sudo apt-get install tmux
