@@ -5,7 +5,7 @@
 #########################################
 
 # Install latest pip
-sudo apt-get install python3-pip
+#sudo apt-get install python3-pip
 
 # Install TA-Lib
 sudo wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
@@ -16,19 +16,19 @@ make
 sudo make install
 
 # Upgrade python setuptools
-pip3 install --upgrade setuptools
+#pip3 install --upgrade setuptools
 
 # Install ta-lib wrapper from mrjbq7
-pip3 install TA-lib
+#pip3 install TA-lib
 
 # Install pandas_ta
-pip3 install pandas_ta
+#pip3 install pandas_ta
 
 # Install ccxt Library
-pip3 install ccxt
+#pip3 install ccxt
 
 # Install Py3cw Library
-pip3 install py3cw
+#pip3 install py3cw
 
 # Install tmux
 sudo apt-get install tmux
