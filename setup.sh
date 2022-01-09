@@ -4,13 +4,11 @@
 # Installing necessary packages.
 #########################################
 
-### Update Python to 3.9
-
 # Install latest pip
 sudo apt-get install python3-pip
 
 # Install TA-Lib
-wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
+sudo wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
 tar -xzf ta-lib-0.4.0-src.tar.gz
 cd ta-lib/
 ./configure --prefix=/usr
