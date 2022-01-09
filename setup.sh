@@ -9,7 +9,7 @@
 sudo apt-get update
 
 # Install Build Essentials
-sudo apt-get install build-essentials
+sudo apt-get install build-essential
 
 # Install TA-Lib
 sudo wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
