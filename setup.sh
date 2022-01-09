@@ -4,6 +4,8 @@
 # Installing necessary packages.
 #########################################
 
+### Update Python to 3.9
+
 # Install latest pip
 sudo apt-get install python3-pip
 
@@ -16,7 +18,7 @@ make
 sudo make install
 
 # Upgrade python setuptools
-pip3 intall --upgrade setuptools
+pip3 install --upgrade setuptools
 
 # Install ta-lib wrapper from mrjbq7
 pip3 install TA-lib
